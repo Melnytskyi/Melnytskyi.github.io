@@ -1,3 +1,3 @@
 # Melnytskyi Apps
 
-![Multi agent](/multi_agent/)
+[Multi agent](https://melnytskyi.github.io/multi_agent/)
