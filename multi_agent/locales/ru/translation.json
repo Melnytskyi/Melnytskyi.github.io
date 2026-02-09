@@ -1,0 +1,333 @@
+{
+  "settings": {
+    "general": {
+      "title": "Общие"
+    },
+    "credentials": {
+      "title": "Учетные данные",
+      "gh_token": {
+        "label": "GitHub Token",
+        "description": "Требуется для приватных репозиториев и увеличения лимитов API."
+      },
+      "gapi_key": {
+        "label": "Ключ API Gemini",
+        "description": "Требуется для сервисов Gemini AI."
+      }
+    },
+    "mainAgent": {
+      "title": "Основной Агент",
+      "modelName": {
+        "label": "Модель",
+        "options": {
+          "gemini-3-flash-preview": "Gemini 3.0 Flash",
+          "gemini-3-pro-preview": "Gemini 3.0 Pro",
+          "gemini-3-pro-image-preview": "Image Pro",
+          "gemini-2.5-flash": "Gemini 2.5 Flash",
+          "gemini-2.5-pro": "Gemini 2.5 Pro"
+        }
+      },
+      "temperature": {
+        "label": "Температура"
+      }
+    },
+    "subAgent": {
+      "title": "Со-агент (Исследования)",
+      "researchModelName": {
+        "label": "Модель",
+        "options": {
+          "gemini-2.5-flash-lite": "Gemini 2.5 Flash Lite",
+          "gemini-2.5-flash": "Gemini 2.5 Flash",
+          "gemini-2.5-pro": "Gemini 2.5 Pro",
+          "gemini-3-flash-preview": "Gemini 3.0 Flash",
+          "gemini-3-pro-preview": "Gemini 3.0 Pro"
+        }
+      },
+      "maxParallelAgents": {
+        "label": "Макс. параллельных агентов"
+      }
+    },
+    "capabilities": {
+      "title": "Инструменты и возможности",
+      "github": {
+        "label": "GitHub API"
+      },
+      "browser": {
+        "label": "Веб-браузер"
+      },
+      "delegate": {
+        "label": "Агенты-исследователи"
+      },
+      "webApi": {
+        "label": "Прямой доступ к Web API"
+      },
+      "imageGeneration": {
+        "label": "Генерация изображений ИИ"
+      }
+    },
+    "save_changes": "Сохранить изменения",
+    "reset_to_current": "Сбросить к текущим значениям",
+    "close_settings": "Закрыть настройки",
+    "shortcuts": "Показать горячие клавиши",
+    "name": "Настройки",
+    "desc": "Настройка возможностей агента и учетных данных",
+    "shortcuts_but": "Горячие клавиши (?)",
+    "close_but": "Закрыть (Esc)",
+    "to_navigate": "для навигации",
+    "to_cancel": "для отмены",
+    "reset_but": "сбросить",
+    "save_but": "Сохранить изменения",
+    "shortcuts_title": "Редактор настроек"
+  },
+  "knowledge": {
+    "database": "База знаний",
+    "add_knowledge": "Добавить знания",
+    "search": "Поиск",
+    "accessing_database": "Доступ к базе данных...",
+    "no_items_found": "Элементов в базе данных не найдено.",
+    "failed_to_add_item": "Не удалось добавить элемент знаний.",
+    "search_knowledge": "Поиск в базе знаний",
+    "close_viewer": "Закрыть просмотр",
+    "system_tip_header": "Системная подсказка: Пользовательское поведение агента",
+    "add_snippet_with": "Добавьте фрагмент с тегом ",
+    "to_define_agent_behavior": "чтобы определить, как агент должен говорить, решать проблемы или взаимодействовать с вами во время сессий.",
+    "new_knowledge_entry": "Новая запись знаний",
+    "save_knowledge": "Сохранить знания",
+    "cancel": "Отмена",
+    "new_knowledge_entry_placeholder": "Введите содержание знаний (поддерживается Markdown)...",
+    "new_knowledge_tags_placeholder": "Введите теги (через запятую)...",
+    "edit_item": "Редактировать элемент",
+    "save_changes": "Сохранить изменения",
+    "delete_item": "Удалить элемент"
+  },
+  "context_window": {
+    "title": "Управление окном контекста",
+    "no_context_history": "История контекста недоступна.",
+    "turn": "Ход",
+    "disabled": "отключено",
+    "copy_content": "Копировать содержимое",
+    "edit_content": "Редактировать содержимое",
+    "enable_turn": "Включить ход",
+    "disable_turn": "Отключить ход",
+    "prune_tool_results": "Очистить результаты инструментов",
+    "delete_turn": "Удалить ход",
+    "cancel_edit": "Отменить редактирование",
+    "enable_tool_call": "Включить вызов инструмента",
+    "disable_tool_call": "Отключить вызов инструмента",
+    "result": "результат",
+    "call": "вызов",
+    "unknown": "неизвестно",
+    "role_user": "Пользователь",
+    "role_system": "Система",
+    "role_model": "Модель"
+  },
+  "virtual_file_manager": {
+    "agent_workspace": "Рабочая область агента",
+    "collapse_sidebar": "Свернуть боковую панель",
+    "expand_sidebar": "Развернуть боковую панель",
+    "mounts": "Монтирование",
+    "no_mounts": "Нет монтирований",
+    "show_shortcuts": "Показать горячие клавиши",
+    "close_file_manager": "Закрыть файловый менеджер",
+    "error": "Ошибка",
+    "no_changes_detected": "Изменений не обнаружено.",
+    "discard_changes": "Отклонить изменения",
+    "accept_changes": "Принять изменения",
+    "new_file_here": "Новый файл здесь",
+    "unmount_workspace": "Размонтировать рабочую область",
+    "discard_all_changes": "Отклонить все изменения",
+    "accept_all_changes": "Принять все изменения",
+    "download":"Скачать",
+    "download_zip": "Скачать Zip",
+    "delete": "Удалить",
+    "delete_items": "Удалить {{count, number}} элементов",
+    "new_file": "Новый файл",
+    "open": "Открыть",
+    "sidebar": {
+      "title": "Проводник",
+      "ignore_system": "игнорировать системные",
+      "new_file_here": "Новый файл здесь",
+      "new_file": "Новый файл",
+      "mount_local_directory": "Монтировать локальную директорию",
+      "mount_github_repo": "Монтировать GitHub репозиторий",
+      "local": "Локальный",
+      "github": "GitHub",
+      "file_system_tree": "Дерево файловой системы",
+      "no_files_in_workspace": "Нет файлов в рабочей области"
+    },
+    "editor": {
+      "new_file_placeholder": "Введите имя файла (напр. src/notes.md)",
+      "switch_to_diff_mode": "Переключить режим Diff/Edit (Alt+C)",
+      "switch_to_edit_mode": "Переключить режим Diff/Edit (Alt+C)",
+      "diff_mode": "Diff",
+      "edit_mode": "Редактирование",
+      "select_file_to_begin_editing": "Выберите файл для редактирования",
+      "toggle_markdown_preview": "Переключить предпросмотр Markdown (Alt+M)",
+      "rename_file": "Переименовать (F2)",
+      "download_file": "Скачать (Ctrl+D)",
+      "download_as_zip": "Скачать как Zip (Ctrl+Shift+S)",
+      "delete_file": "Удалить (Del)",
+      "save_file": "Сохранить (Ctrl+S)",
+      "file_content_placeholder": "Содержимое файла здесь...",
+      "no_file_selected": "Файл не выбран",
+      "lines_count": "{{count, number}} строк",
+      "state_deleted": "Удалено",
+      "state_modified": "Изменено",
+      "state_new": "Новый"
+    },
+    "keybinds": {
+      "select_down": "Выбрать ниже",
+      "select_up": "Выбрать выше",
+      "select_first": "Выбрать первый",
+      "select_last": "Выбрать последний",
+      "expand_or_open_file": "Развернуть или открыть файл",
+      "shrink_folder_or_parent": "Свернуть папку или перейти к родительской",
+      "open_file_or_expand_folder": "Открыть файл или развернуть папку",
+      "create_new_file": "Создать новый файл",
+      "mount_local_directory": "Монтировать локальную директорию",
+      "mount_github_repo": "Монтировать GitHub репозиторий",
+      "rename_file": "Переименовать файл",
+      "delete_file_or_folder": "Удалить файл или папку",
+      "download_file_or_folder": "Скачать файл или папку",
+      "download_as_zip": "Скачать как Zip",
+      "unmount_the_mount": "Размонтировать",
+      "discard_changes": "Отклонить изменения",
+      "accept_changes": "Принять изменения",
+      "save_file": "Сохранить файл",
+      "download_file": "Скачать файл",
+      "toggle_markdown_preview": "Переключить предпросмотр Markdown",
+      "toggle_edit_and_diff_view": "Переключить вид Редактирование/Diff",
+      "delete_file": "Удалить файл",
+      "download_file_as_zip": "Скачать файл как Zip",
+      "open_shortcuts_window": "Открыть окно горячих клавиш",
+      "focus_close_button_and_back": "Фокус на кнопку закрытия и назад",
+      "sidebar": "Боковая панель",
+      "editor": "Редактор",
+      "global": "Глобальные"
+    },
+    "dialogs": {
+      "notification": "Уведомление",
+      "failed_to_save": "Не удалось сохранить файл {{error}}",
+      "failed_to_delete": "Не удалось удалить файл {{path}}",
+      "failed_to_download": "Не удалось скачать файл {{error}}",
+      "failed_to_create_zip": "Не удалось создать zip-файл {{error}}",
+      "no_files_found_to_download": "Не найдено файлов для скачивания.",
+      "mount_github_step_1": "Монтирование GitHub репозитория - Шаг 1",
+      "mount_github_step_2": "Монтирование GitHub репозитория - Шаг 2",
+      "mount_github_step_3": "Монтирование GitHub репозитория - Шаг 3",
+      "mount_github_step_4": "Монтирование GitHub репозитория - Шаг 4",
+      "mount_github_alias_prompt": "Введите псевдоним для GitHub репозитория",
+      "mount_github_owner_prompt": "Введите владельца GitHub (пользователь или организация)",
+      "mount_github_repo_prompt": "Введите название репозитория GitHub",
+      "mount_github_branch_prompt": "Введите название ветки (по умолчанию: main)",
+      "mount_github_success": "Успешно смонтирован GitHub репозиторий {{owner}}/{{repo}} по пути /{{alias}}",
+      "mount_github_failed": "Не удалось смонтировать GitHub репозиторий: {{error}}",
+      "mount_local_step_1": "Монтирование локальной директории",
+      "mount_local_alias_prompt": "Введите псевдоним для локальной директории",
+      "mount_local_failed": "Не удалось смонтировать локальную директорию.",
+      "unmount_workspace_title": "Размонтировать рабочую область",
+      "unmount_workspace_message": "Вы уверены, что хотите размонтировать рабочую область? Это удалит все смонтированные директории."
+    }
+  },
+  "variable_viewer": {
+    "title": "Просмотр переменных",
+    "no_variables": "Переменные недоступны."
+  },
+  "modal_dialog": {
+    "ok": "ОК",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить"
+  },
+  "shortcuts": {
+    "shortcuts_title": "Палитра команд",
+    "close_key": "ESC ДЛЯ ЗАКРЫТИЯ"
+  },
+  "chat": {
+    "history": {
+      "agent_thinking": "Агент думает...",
+      "no_content": "Нет содержимого",
+      "thought": "Мысль",
+      "cancel": "Отмена",
+      "sources": "Источники",
+      "edit_content": "Редактировать содержимое",
+      "copy_content": "Копировать содержимое",
+      "delete_message": "Удалить сообщение",
+      "greetings": {
+        "ready": "Агент готов",
+        "welcome": "Исследуйте, анализируйте код и планируйте.",
+        "features": {
+          "research_batching": "Пакетное исследование",
+          "native_image_gen": "Генерация изображений",
+          "context_management": "Управление контекстом",
+          "tool_flow_pipelines": "Пайплайны инструментов"
+        }
+      },
+      "task_tree": {
+        "debate": {
+          "agent_thinking": "Думает...",
+          "opinion": "Мнение",
+          "round": {
+            "title": "Итог раунда дебатов",
+            "total_agents": "{{count}} Агентов"
+          }
+        },
+        "node": {
+          "arguments": "Аргументы",
+          "result": "Результат"
+        }
+      },
+      "input": {
+        "placeholder": "Попросите агента исследовать, проанализировать код или объяснить концепции...",
+        "attach_file": "Прикрепить файл",
+        "press_enter_to_send_0": "Нажмите",
+        "press_enter_to_send_1": "для отправки",
+        "for_newline": "для новой строки",
+        "set_gemini_key": "Установите ключ API Gemini для использования модели",
+        "cancel_generation": "Отменить генерацию",
+        "send_message": "Отправить сообщение"
+      }
+    },
+    "header": {
+      "sidebar_open": "Открыть боковую панель",
+      "icon": "Иконка",
+      "auto_scroll": {
+        "enabled": "Автопрокрутка включена",
+        "disabled": "Автопрокрутка выключена"
+      },
+      "modal": {
+        "context_window": "Окно контекста",
+        "vfs": "Виртуальная файловая система",
+        "knowledge_base": "База знаний",
+        "variables_viever": "Просмотр переменных",
+        "settings": "Настройки"
+      },
+      "action": {
+        "clear_history": "Очистить историю"
+      }
+    },
+    "markdown": {
+      "image": {
+        "not_found": "Изображение не найдено по пути `{{path}}`."
+      }
+    },
+    "sidebar": {
+      "icon": "Иконка",
+      "new_chat": "Новый чат",
+      "recent_chats": "Недавняя история",
+      "no_history": "Истории еще нет",
+      "delete_chat": "Удалить чат"
+    }
+  },
+  "keybinds": {
+    "new_chat": "Новый чат",
+    "sidebar_toggle": "Переключить боковую панель",
+    "open_vfs": "Открыть виртуальный файловый менеджер",
+    "open_settings": "Открыть настройки",
+    "open_knowledge_base": "Открыть базу знаний",
+    "open_variables_viewer": "Открыть просмотр переменных",
+    "open_context_viewer": "Открыть окно контекста",
+    "clear_current_history": "Очистить историю",
+    "toggle_auto_scroll": "Переключить автопрокрутку",
+    "open_shortcuts": "Открыть горячие клавиши",
+    "application": "Приложение"
+  }
+}

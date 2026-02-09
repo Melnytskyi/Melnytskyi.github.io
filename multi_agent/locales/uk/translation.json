@@ -1,0 +1,333 @@
+{
+  "settings": {
+    "general": {
+      "title": "Загальні"
+    },
+    "credentials": {
+      "title": "Облікові дані",
+      "gh_token": {
+        "label": "GitHub Token",
+        "description": "Потрібен для приватних репозиторіїв та збільшення лімітів API."
+      },
+      "gapi_key": {
+        "label": "Ключ API Gemini",
+        "description": "Потрібен для сервісів Gemini AI."
+      }
+    },
+    "mainAgent": {
+      "title": "Основний Агент",
+      "modelName": {
+        "label": "Модель",
+        "options": {
+          "gemini-3-flash-preview": "Gemini 3.0 Flash",
+          "gemini-3-pro-preview": "Gemini 3.0 Pro",
+          "gemini-3-pro-image-preview": "Image Pro",
+          "gemini-2.5-flash": "Gemini 2.5 Flash",
+          "gemini-2.5-pro": "Gemini 2.5 Pro"
+        }
+      },
+      "temperature": {
+        "label": "Температура"
+      }
+    },
+    "subAgent": {
+      "title": "Субагент (Дослідження)",
+      "researchModelName": {
+        "label": "Модель",
+        "options": {
+          "gemini-2.5-flash-lite": "Gemini 2.5 Flash Lite",
+          "gemini-2.5-flash": "Gemini 2.5 Flash",
+          "gemini-2.5-pro": "Gemini 2.5 Pro",
+          "gemini-3-flash-preview": "Gemini 3.0 Flash",
+          "gemini-3-pro-preview": "Gemini 3.0 Pro"
+        }
+      },
+      "maxParallelAgents": {
+        "label": "Макс. паралельних агентів"
+      }
+    },
+    "capabilities": {
+      "title": "Інструменти та Можливості",
+      "github": {
+        "label": "GitHub API"
+      },
+      "browser": {
+        "label": "Веб-браузер"
+      },
+      "delegate": {
+        "label": "Агенти-дослідники"
+      },
+      "webApi": {
+        "label": "Прямий доступ до Web API"
+      },
+      "imageGeneration": {
+        "label": "Генерація зображень ШІ"
+      }
+    },
+    "save_changes": "Зберегти зміни",
+    "reset_to_current": "Скинути до поточних значень",
+    "close_settings": "Закрити налаштування",
+    "shortcuts": "Показати гарячі клавіші",
+    "name": "Налаштування",
+    "desc": "Налаштування можливостей агента та облікових даних",
+    "shortcuts_but": "Гарячі клавіші (?)",
+    "close_but": "Закрити (Esc)",
+    "to_navigate": "для навігації",
+    "to_cancel": "для скасування",
+    "reset_but": "скинути",
+    "save_but": "Зберегти зміни",
+    "shortcuts_title": "Редактор налаштувань"
+  },
+  "knowledge": {
+    "database": "База знань",
+    "add_knowledge": "Додати знання",
+    "search": "Пошук",
+    "accessing_database": "Доступ до бази даних...",
+    "no_items_found": "Елементів у базі даних не знайдено.",
+    "failed_to_add_item": "Не вдалося додати елемент знань.",
+    "search_knowledge": "Пошук у базі знань",
+    "close_viewer": "Закрити переглядач",
+    "system_tip_header": "Системна підказка: Користувацька поведінка агента",
+    "add_snippet_with": "Додайте фрагмент із тегом ",
+    "to_define_agent_behavior": "щоб визначити, як агент повинен говорити, вирішувати проблеми або взаємодіяти з вами під час сесій.",
+    "new_knowledge_entry": "Новий запис знань",
+    "save_knowledge": "Зберегти знання",
+    "cancel": "Скасувати",
+    "new_knowledge_entry_placeholder": "Введіть зміст знань (підтримується Markdown)...",
+    "new_knowledge_tags_placeholder": "Введіть теги (через кому)...",
+    "edit_item": "Редагувати елемент",
+    "save_changes": "Зберегти зміни",
+    "delete_item": "Видалити елемент"
+  },
+  "context_window": {
+    "title": "Керування вікном контексту",
+    "no_context_history": "Історія контексту недоступна.",
+    "turn": "Хід",
+    "disabled": "вимкнено",
+    "copy_content": "Копіювати вміст",
+    "edit_content": "Редагувати вміст",
+    "enable_turn": "Увімкнути хід",
+    "disable_turn": "Вимкнути хід",
+    "prune_tool_results": "Очистити результати інструментів",
+    "delete_turn": "Видалити хід",
+    "cancel_edit": "Скасувати редагування",
+    "enable_tool_call": "Увімкнути виклик інструменту",
+    "disable_tool_call": "Вимкнути виклик інструменту",
+    "result": "результат",
+    "call": "виклик",
+    "unknown": "невідомо",
+    "role_user": "Користувач",
+    "role_system": "Система",
+    "role_model": "Модель"
+  },
+  "virtual_file_manager": {
+    "agent_workspace": "Робоча область агента",
+    "collapse_sidebar": "Згорнути бічну панель",
+    "expand_sidebar": "Розгорнути бічну панель",
+    "mounts": "Монтування",
+    "no_mounts": "Немає монтувань",
+    "show_shortcuts": "Показати гарячі клавіші",
+    "close_file_manager": "Закрити файловий менеджер",
+    "error": "Помилка",
+    "no_changes_detected": "Змін не виявлено.",
+    "discard_changes": "Відхилити зміни",
+    "accept_changes": "Прийняти зміни",
+    "new_file_here": "Новий файл тут",
+    "unmount_workspace": "Розмонтувати робочу область",
+    "discard_all_changes": "Відхилити всі зміни",
+    "accept_all_changes": "Прийняти всі зміни",
+    "download":"Завантажити",
+    "download_zip": "Завантажити Zip",
+    "delete": "Видалити",
+    "delete_items": "Видалити {{count, number}} елементів",
+    "new_file": "Новий файл",
+    "open": "Відкрити",
+    "sidebar": {
+      "title": "Провідник",
+      "ignore_system": "ігнорувати системні",
+      "new_file_here": "Новий файл тут",
+      "new_file": "Новий файл",
+      "mount_local_directory": "Монтувати локальну директорію",
+      "mount_github_repo": "Монтувати GitHub репозиторій",
+      "local": "Локальний",
+      "github": "GitHub",
+      "file_system_tree": "Дерево файлової системи",
+      "no_files_in_workspace": "Немає файлів у робочій області"
+    },
+    "editor": {
+      "new_file_placeholder": "Введіть ім'я файлу (напр. src/notes.md)",
+      "switch_to_diff_mode": "Перемкнути режим Diff/Edit (Alt+C)",
+      "switch_to_edit_mode": "Перемкнути режим Diff/Edit (Alt+C)",
+      "diff_mode": "Diff",
+      "edit_mode": "Редагування",
+      "select_file_to_begin_editing": "Виберіть файл для редагування",
+      "toggle_markdown_preview": "Перемкнути попередній перегляд Markdown (Alt+M)",
+      "rename_file": "Перейменувати (F2)",
+      "download_file": "Завантажити (Ctrl+D)",
+      "download_as_zip": "Завантажити як Zip (Ctrl+Shift+S)",
+      "delete_file": "Видалити (Del)",
+      "save_file": "Зберегти (Ctrl+S)",
+      "file_content_placeholder": "Вміст файлу тут...",
+      "no_file_selected": "Файл не обрано",
+      "lines_count": "{{count, number}} рядків",
+      "state_deleted": "Видалено",
+      "state_modified": "Змінено",
+      "state_new": "Новий"
+    },
+    "keybinds": {
+      "select_down": "Вибрати нижче",
+      "select_up": "Вибрати вище",
+      "select_first": "Вибрати перший",
+      "select_last": "Вибрати останній",
+      "expand_or_open_file": "Розгорнути або відкрити файл",
+      "shrink_folder_or_parent": "Згорнути папку або перейти до батьківської",
+      "open_file_or_expand_folder": "Відкрити файл або розгорнути папку",
+      "create_new_file": "Створити новий файл",
+      "mount_local_directory": "Монтувати локальну директорію",
+      "mount_github_repo": "Монтувати GitHub репозиторій",
+      "rename_file": "Перейменувати файл",
+      "delete_file_or_folder": "Видалити файл або папку",
+      "download_file_or_folder": "Завантажити файл або папку",
+      "download_as_zip": "Завантажити як Zip",
+      "unmount_the_mount": "Розмонтувати",
+      "discard_changes": "Відхилити зміни",
+      "accept_changes": "Прийняти зміни",
+      "save_file": "Зберегти файл",
+      "download_file": "Завантажити файл",
+      "toggle_markdown_preview": "Перемкнути попередній перегляд Markdown",
+      "toggle_edit_and_diff_view": "Перемкнути вигляд Редагування/Diff",
+      "delete_file": "Видалити файл",
+      "download_file_as_zip": "Завантажити файл як Zip",
+      "open_shortcuts_window": "Відкрити вікно гарячих клавіш",
+      "focus_close_button_and_back": "Фокус на кнопку закриття і назад",
+      "sidebar": "Бічна панель",
+      "editor": "Редактор",
+      "global": "Глобальні"
+    },
+    "dialogs": {
+      "notification": "Сповіщення",
+      "failed_to_save": "Не вдалося зберегти файл {{error}}",
+      "failed_to_delete": "Не вдалося видалити файл {{path}}",
+      "failed_to_download": "Не вдалося завантажити файл {{error}}",
+      "failed_to_create_zip": "Не вдалося створити zip-файл {{error}}",
+      "no_files_found_to_download": "Не знайдено файлів для завантаження.",
+      "mount_github_step_1": "Монтування GitHub репозиторію - Крок 1",
+      "mount_github_step_2": "Монтування GitHub репозиторію - Крок 2",
+      "mount_github_step_3": "Монтування GitHub репозиторію - Крок 3",
+      "mount_github_step_4": "Монтування GitHub репозиторію - Крок 4",
+      "mount_github_alias_prompt": "Введіть псевдонім для GitHub репозиторію",
+      "mount_github_owner_prompt": "Введіть власника GitHub (користувач або організація)",
+      "mount_github_repo_prompt": "Введіть назву репозиторію GitHub",
+      "mount_github_branch_prompt": "Введіть назву гілки (за замовчуванням: main)",
+      "mount_github_success": "Успішно змонтовано GitHub репозиторій {{owner}}/{{repo}} за шляхом /{{alias}}",
+      "mount_github_failed": "Не вдалося змонтувати GitHub репозиторій: {{error}}",
+      "mount_local_step_1": "Монтування локальної директорії",
+      "mount_local_alias_prompt": "Введіть псевдонім для локальної директорії",
+      "mount_local_failed": "Не вдалося змонтувати локальну директорію.",
+      "unmount_workspace_title": "Розмонтувати робочу область",
+      "unmount_workspace_message": "Ви впевнені, що хочете розмонтувати робочу область? Це видалить усі змонтовані директорії."
+    }
+  },
+  "variable_viewer": {
+    "title": "Переглядач змінних",
+    "no_variables": "Змінні недоступні."
+  },
+  "modal_dialog": {
+    "ok": "ОК",
+    "cancel": "Скасувати",
+    "confirm": "Підтвердити"
+  },
+  "shortcuts": {
+    "shortcuts_title": "Палітра команд",
+    "close_key": "ESC ДЛЯ ЗАКРИТТЯ"
+  },
+  "chat": {
+    "history": {
+      "agent_thinking": "Агент думає...",
+      "no_content": "Немає вмісту",
+      "thought": "Думка",
+      "cancel": "Скасувати",
+      "sources": "Джерела",
+      "edit_content": "Редагувати вміст",
+      "copy_content": "Копіювати вміст",
+      "delete_message": "Видалити повідомлення",
+      "greetings": {
+        "ready": "Агент готовий",
+        "welcome": "Досліджуйте, аналізуйте код та плануйте.",
+        "features": {
+          "research_batching": "Пакетне дослідження",
+          "native_image_gen": "Генерація зображень",
+          "context_management": "Керування контекстом",
+          "tool_flow_pipelines": "Пайплайни інструментів"
+        }
+      },
+      "task_tree": {
+        "debate": {
+          "agent_thinking": "Думає...",
+          "opinion": "Думка",
+          "round": {
+            "title": "Підсумок раунду дебатів",
+            "total_agents": "{{count}} Агентів"
+          }
+        },
+        "node": {
+          "arguments": "Аргументи",
+          "result": "Результат"
+        }
+      },
+      "input": {
+        "placeholder": "Попросіть агента дослідити, проаналізувати код або пояснити концепції...",
+        "attach_file": "Прикріпити файл",
+        "press_enter_to_send_0": "Натисніть",
+        "press_enter_to_send_1": "щоб надіслати",
+        "for_newline": "для нового рядка",
+        "set_gemini_key": "Встановіть ключ API Gemini для використання моделі",
+        "cancel_generation": "Скасувати генерацію",
+        "send_message": "Надіслати повідомлення"
+      }
+    },
+    "header": {
+      "sidebar_open": "Відкрити бічну панель",
+      "icon": "Іконка",
+      "auto_scroll": {
+        "enabled": "Автопрокрутка увімкнена",
+        "disabled": "Автопрокрутка вимкнена"
+      },
+      "modal": {
+        "context_window": "Вікно контексту",
+        "vfs": "Віртуальна файлова система",
+        "knowledge_base": "База знань",
+        "variables_viever": "Переглядач змінних",
+        "settings": "Налаштування"
+      },
+      "action": {
+        "clear_history": "Очистити історію"
+      }
+    },
+    "markdown": {
+      "image": {
+        "not_found": "Зображення не знайдено за шляхом `{{path}}`."
+      }
+    },
+    "sidebar": {
+      "icon": "Іконка",
+      "new_chat": "Новий чат",
+      "recent_chats": "Недавня історія",
+      "no_history": "Історії ще немає",
+      "delete_chat": "Видалити чат"
+    }
+  },
+  "keybinds": {
+    "new_chat": "Новий чат",
+    "sidebar_toggle": "Перемкнути бічну панель",
+    "open_vfs": "Відкрити віртуальний файловий менеджер",
+    "open_settings": "Відкрити налаштування",
+    "open_knowledge_base": "Відкрити базу знань",
+    "open_variables_viewer": "Відкрити переглядач змінних",
+    "open_context_viewer": "Відкрити вікно контексту",
+    "clear_current_history": "Очистити історію",
+    "toggle_auto_scroll": "Перемкнути автопрокрутку",
+    "open_shortcuts": "Відкрити гарячі клавіші",
+    "application": "Програма"
+  }
+}

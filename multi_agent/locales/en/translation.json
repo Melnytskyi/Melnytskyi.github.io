@@ -1,0 +1,333 @@
+{
+  "settings": {
+    "general": {
+      "title": "General"
+    },
+    "credentials": {
+      "title": "Credentials",
+      "gh_token": {
+        "label": "GitHub Token",
+        "description": "Required for private repos and higher API limits."
+      },
+      "gapi_key": {
+        "label": "Gemini API Key",
+        "description": "Required for Gemini AI services."
+      }
+    },
+    "mainAgent": {
+      "title": "Main Agent",
+      "modelName": {
+        "label": "Model",
+        "options": {
+          "gemini-3-flash-preview": "Gemini 3.0 Flash",
+          "gemini-3-pro-preview": "Gemini 3.0 Pro",
+          "gemini-3-pro-image-preview": "Image Pro",
+          "gemini-2.5-flash": "Gemini 2.5 Flash",
+          "gemini-2.5-pro": "Gemini 2.5 Pro"
+        }
+      },
+      "temperature": {
+        "label": "Temperature"
+      }
+    },
+    "subAgent": {
+      "title": "Sub Agent (Research)",
+      "researchModelName": {
+        "label": "Model",
+        "options": {
+          "gemini-2.5-flash-lite": "Gemini 2.5 Flash Lite",
+          "gemini-2.5-flash": "Gemini 2.5 Flash",
+          "gemini-2.5-pro": "Gemini 2.5 Pro",
+          "gemini-3-flash-preview": "Gemini 3.0 Flash",
+          "gemini-3-pro-preview": "Gemini 3.0 Pro"
+        }
+      },
+      "maxParallelAgents": {
+        "label": "Max Parallel Agents"
+      }
+    },
+    "capabilities": {
+      "title": "Tools & Capabilities",
+      "github": {
+        "label": "GitHub API"
+      },
+      "browser": {
+        "label": "Web Browser"
+      },
+      "delegate": {
+        "label": "Research Agents"
+      },
+      "webApi": {
+        "label": "Raw Web API Access"
+      },
+      "imageGeneration": {
+        "label": "Image Generation AI"
+      }
+    },
+    "save_changes": "Save changes",
+    "reset_to_current":"Reset to current values",
+    "close_settings": "Close settings",
+    "shortcuts": "Show shortcuts",
+    "name":"Settings",
+    "desc":"Configure agent capabilities and credentials",
+    "shortcuts_but":"Keyboard Shortcuts (?)",
+    "close_but": "Close (Esc)",
+    "to_navigate": "to navigate",
+    "to_cancel": "to cancel",
+    "reset_but": "reset",
+    "save_but": "Save Changes",
+    "shortcuts_title":"Settings Editor"
+  },
+  "knowledge": {
+    "database": "Knowledge Database",
+    "add_knowledge": "Add Knowledge",
+    "search": "Search",
+    "accessing_database": "Accessing database...",
+    "no_items_found": "No items found in database.",
+    "failed_to_add_item": "Failed to add knowledge item.",
+    "search_knowledge": "Search knowledge",
+    "close_viewer": "Close viewer",
+    "system_tip_header": "System Tip: Custom Agent Behavior",
+    "add_snippet_with": "Add a snippet with the tag ",
+    "to_define_agent_behavior": "to define how the agent should talk, solve problems, or interact with you across sessions.",
+    "new_knowledge_entry": "New Knowledge Entry",
+    "save_knowledge": "Save Knowledge",
+    "cancel": "Cancel",
+    "new_knowledge_entry_placeholder": "Enter knowledge content (markdown supported)...",
+    "new_knowledge_tags_placeholder": "Enter tags (comma separated)...",
+    "edit_item": "Edit Item",
+    "save_changes": "Save Changes",
+    "delete_item": "Delete Item"
+  },
+  "context_window": {
+    "title": "Context Window Management",
+    "no_context_history": "No context history available.",
+    "turn": "Turn",
+    "disabled": "disabled",
+    "copy_content": "Copy Content",
+    "edit_content": "Edit Content",
+    "enable_turn": "Enable Turn",
+    "disable_turn": "Disable Turn",
+    "prune_tool_results": "Prune Tool Results",
+    "delete_turn": "Delete Turn",
+    "cancel_edit": "Cancel Edit",
+    "enable_tool_call": "Enable Tool Call",
+    "disable_tool_call": "Disable Tool Call",
+    "result": "result",
+    "call": "call",
+    "unknown": "unknown",
+    "role_user": "User",
+    "role_system": "System",
+    "role_model": "Model"
+  },
+  "virtual_file_manager": {
+    "agent_workspace": "Agent Workspace",
+    "collapse_sidebar": "Collapse sidebar",
+    "expand_sidebar": "Expand sidebar",
+    "mounts": "Mounts",
+    "no_mounts": "No Mounts",
+    "show_shortcuts": "Show shortcuts",
+    "close_file_manager": "Close file manager",
+    "error": "Error",
+    "no_changes_detected": "No changes detected.",
+    "discard_changes": "Discard Changes",
+    "accept_changes": "Accept Changes",
+    "new_file_here": "New File Here",
+    "unmount_workspace": "Unmount Workspace",
+    "discard_all_changes": "Discard All Changes",
+    "accept_all_changes": "Accept All Changes",
+    "download":"Download",
+    "download_zip": "Download Zip",
+    "delete": "Delete",
+    "delete_items": "Delete {{count, number}} Items",
+    "new_file": "New File",
+    "open": "Open",
+    "sidebar":{
+      "title": "File Explorer",
+      "ignore_system": "ignore system",
+      "new_file_here": "New File Here",
+      "new_file":"New File",
+      "mount_local_directory": "Mount Local Directory",
+      "mount_github_repo": "Mount GitHub Repository",
+      "local": "Local",
+      "github": "GitHub",
+      "file_system_tree": "File System Tree",
+      "no_files_in_workspace": "No files in workspace"
+    },
+    "editor":{
+      "new_file_placeholder": "Enter filename (e.g. src/notes.md)",
+      "switch_to_diff_mode": "Switch Diff/Edit mode (Alt+C)",
+      "switch_to_edit_mode": "Switch Diff/Edit mode (Alt+C)",
+      "diff_mode": "Diff",
+      "edit_mode": "Edit",
+      "select_file_to_begin_editing": "Select a file to begin editing",
+      "toggle_markdown_preview": "Toggle Markdown Preview (Alt+M)",
+      "rename_file": "Rename (F2)",
+      "download_file": "Download (Ctrl+D)",
+      "download_as_zip": "Download as Zip (Ctrl+Shift+S)",
+      "delete_file": "Delete (Del)",
+      "save_file": "Save (Ctrl+S)",
+      "file_content_placeholder": "File content goes here...",
+      "no_file_selected": "No file selected",
+      "lines_count": "{{count, number}} lines",
+      "state_deleted": "Deleted",
+      "state_modified": "Modified",
+      "state_new": "New"
+    },
+    "keybinds": {
+      "select_down": "Select Down",
+      "select_up": "Select Up",
+      "select_first": "Select First",
+      "select_last": "Select Last",
+      "expand_or_open_file": "Expand or Open File",
+      "shrink_folder_or_parent": "Shrink Folder or Go to Parent",
+      "open_file_or_expand_folder": "Open File or Expand Folder",
+      "create_new_file": "Create New File",
+      "mount_local_directory": "Mount Local Directory",
+      "mount_github_repo": "Mount GitHub Repository",
+      "rename_file": "Rename File",
+      "delete_file_or_folder": "Delete File or Folder",
+      "download_file_or_folder": "Download File or Folder",
+      "download_as_zip": "Download as Zip",
+      "unmount_the_mount": "Unmount the Mount",
+      "discard_changes": "Discard Changes",
+      "accept_changes": "Accept Changes",
+      "save_file":"Save file",
+      "download_file": "Download file",
+      "toggle_markdown_preview":"Toggle Markdown Preview",
+      "toggle_edit_and_diff_view":"Toggle Edit/Diff View",
+      "delete_file": "Delete File",
+      "download_file_as_zip": "Download File as Zip",
+      "open_shortcuts_window": "Open Shortcuts Window",
+      "focus_close_button_and_back": "Focus Close Button and Go Back",
+      "sidebar": "Sidebar",
+      "editor": "Editor",
+      "global": "Global"
+    },
+    "dialogs":{
+      "notification": "Notification",
+      "failed_to_save": "Failed to save file {{error}}",
+      "failed_to_delete": "Failed to delete file {{path}}",
+      "failed_to_download": "Failed to download file {{error}}",
+      "failed_to_create_zip": "Failed to create zip file {{error}}",
+      "no_files_found_to_download": "No files found to download.",
+      "mount_github_step_1": "Mount GitHub Repository - Step 1",
+      "mount_github_step_2": "Mount GitHub Repository - Step 2",
+      "mount_github_step_3": "Mount GitHub Repository - Step 3",
+      "mount_github_step_4": "Mount GitHub Repository - Step 4",
+      "mount_github_alias_prompt": "Enter an alias for the GitHub repository",
+      "mount_github_owner_prompt": "Enter the GitHub owner (username or organization)",
+      "mount_github_repo_prompt": "Enter the GitHub repository name",
+      "mount_github_branch_prompt": "Enter the branch name (default: main)",
+      "mount_github_success": "Successfully mounted GitHub repo {{owner}}/{{repo}} at /{{alias}}",
+      "mount_github_failed": "Failed to mount GitHub repo: {{error}}",
+      "mount_local_step_1": "Mount Local Directory",
+      "mount_local_alias_prompt": "Enter an alias for the local directory",
+      "mount_local_failed": "Failed to mount local directory.",
+      "unmount_workspace_title": "Unmount Workspace",
+      "unmount_workspace_message": "Are you sure you want to unmount the workspace? This will remove all mounted directories."
+    }
+  },
+  "variable_viewer": {
+    "title": "Variables Viewer",
+    "no_variables": "No variables available."
+  },
+  "modal_dialog":{
+    "ok": "OK",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "shortcuts":{
+    "shortcuts_title": "Command Palette",
+    "close_key": "ESC TO CLOSE"
+  },
+  "chat":{
+    "history": {
+      "agent_thinking": "Agent is thinking...",
+      "no_content": "No content available",
+      "thought": "Thought",
+      "cancel": "Cancel",
+      "sources": "Sources",
+      "edit_content": "Edit Content",
+      "copy_content": "Copy Content",
+      "delete_message": "Delete Message",
+      "greetings":{
+        "ready": "The Agent is ready",
+        "welcome": "Research, analyse code, and plan.",
+        "features": {
+          "research_batching": "Research Batching",
+          "native_image_gen": "Native Image Generation",
+          "context_management": "Context Management",
+          "tool_flow_pipelines": "Tool Flow Pipelines"
+        }
+      },
+      "task_tree":{
+        "debate":{
+          "agent_thinking": "Thinking...",
+          "opinion": "Opinion",
+          "round":{
+            "title": "Debate Round Summary",
+            "total_agents": "{{count}} Agents"
+          }
+        },
+        "node":{
+          "arguments": "Arguments",
+          "result": "Result"
+        }
+      },
+      "input":{
+        "placeholder":"Ask the agent to research, analyze code, or explain concepts...",
+        "attach_file": "Attach file",
+        "press_enter_to_send_0": "Press",
+        "press_enter_to_send_1": "to send",
+        "for_newline": "for newline",
+        "set_gemini_key":"Set gemini api key to use the model",
+        "cancel_generation": "Cancel generation",
+        "send_message": "Send message"
+      }
+    },
+    "header":{
+      "sidebar_open": "Open Sidebar",
+      "icon":"Icon",
+      "auto_scroll":{
+        "enabled": "Autoscroll enabled",
+        "disabled": "Autoscroll disabled"
+      },
+      "modal":{
+        "context_window": "Context Window",
+        "vfs": "Virtual File System",
+        "knowledge_base": "Knowledge Base",
+        "variables_viever": "Variables Viewer",
+        "settings": "Settings"
+      },
+      "action":{
+        "clear_history": "Clear history"
+      }
+    },
+    "markdown":{
+      "image":{
+        "not_found":"The image is not found in `{{path}}` path."
+      }
+    },
+    "sidebar":{
+      "icon":"Icon",
+      "new_chat": "New Chat",
+      "recent_chats":"Recent history",
+      "no_history": "No history yet",
+      "delete_chat": "Delete chat"
+    }
+  },
+  "keybinds":{
+    "new_chat":"New Chat",
+    "sidebar_toggle": "Toggle Sidebar",
+    "open_vfs": "Open Virtual File Manager",
+    "open_settings": "Open Settings",
+    "open_knowledge_base": "Open Knowledge Base",
+    "open_variables_viewer": "Open Variables Viewer",
+    "open_context_viewer": "Open Context Window",
+    "clear_current_history": "Clear History",
+    "toggle_auto_scroll": "Toggle Autoscroll",
+    "open_shortcuts": "Open Shortcuts",
+    "application": "Application"
+  }
+}
