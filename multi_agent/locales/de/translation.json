@@ -142,6 +142,7 @@
     "delete_items": "{{count, number}} Elemente löschen",
     "new_file": "Neue Datei",
     "open": "Öffnen",
+    "copy_path_to_clipboard": "Pfad in die Zwischenablage kopieren",
     "sidebar": {
       "title": "Datei-Explorer",
       "ignore_system": "System ignorieren",
@@ -202,7 +203,8 @@
       "focus_close_button_and_back": "Schließen-Button fokussieren und zurück",
       "sidebar": "Seitenleiste",
       "editor": "Editor",
-      "global": "Global"
+      "global": "Global",
+      "copy_path_to_clipboard": "Pfad in die Zwischenablage kopieren"
     },
     "dialogs": {
       "notification": "Benachrichtigung",

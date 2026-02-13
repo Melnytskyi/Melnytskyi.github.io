@@ -142,6 +142,7 @@
     "delete_items": "Удалить {{count, number}} элементов",
     "new_file": "Новый файл",
     "open": "Открыть",
+    "copy_path_to_clipboard": "Скопировать путь в буфер обмена",
     "sidebar": {
       "title": "Проводник",
       "ignore_system": "игнорировать системные",
@@ -202,7 +203,8 @@
       "focus_close_button_and_back": "Фокус на кнопку закрытия и назад",
       "sidebar": "Боковая панель",
       "editor": "Редактор",
-      "global": "Глобальные"
+      "global": "Глобальные",
+      "copy_path_to_clipboard": "Скопировать путь в буфер обмена"
     },
     "dialogs": {
       "notification": "Уведомление",

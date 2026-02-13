@@ -142,6 +142,7 @@
     "delete_items": "Delete {{count, number}} Items",
     "new_file": "New File",
     "open": "Open",
+    "copy_path_to_clipboard": "Copy path to clipboard",
     "sidebar":{
       "title": "File Explorer",
       "ignore_system": "ignore system",
@@ -202,7 +203,8 @@
       "focus_close_button_and_back": "Focus Close Button and Go Back",
       "sidebar": "Sidebar",
       "editor": "Editor",
-      "global": "Global"
+      "global": "Global",
+      "copy_path_to_clipboard": "Copy path to clipboard"
     },
     "dialogs":{
       "notification": "Notification",

@@ -142,6 +142,7 @@
     "delete_items": "Видалити {{count, number}} елементів",
     "new_file": "Новий файл",
     "open": "Відкрити",
+    "copy_path_to_clipboard": "Скопійовувати шлях в буфер обміну",
     "sidebar": {
       "title": "Провідник",
       "ignore_system": "ігнорувати системні",
@@ -202,7 +203,8 @@
       "focus_close_button_and_back": "Фокус на кнопку закриття і назад",
       "sidebar": "Бічна панель",
       "editor": "Редактор",
-      "global": "Глобальні"
+      "global": "Глобальні",
+      "copy_path_to_clipboard": "Скопійовувати шлях в буфер обміну"
     },
     "dialogs": {
       "notification": "Сповіщення",
