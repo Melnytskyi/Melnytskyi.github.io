@@ -22,7 +22,7 @@
           "gemini-3-flash-preview": "Gemini 3.0 Flash",
           "gemini-3.1-pro-preview": "Gemini 3.1 Pro",
           "gemini-3-pro-image-preview": "Image Pro",
-          "gemini-3.1-flash-lite-preview":"Gemini 3.1 Flash Lite",
+          "gemini-3.1-flash-lite-preview": "Gemini 3.1 Flash Lite",
           "gemini-2.5-flash": "Gemini 2.5 Flash",
           "gemini-2.5-pro": "Gemini 2.5 Pro"
         }
@@ -66,18 +66,18 @@
       }
     },
     "save_changes": "Save changes",
-    "reset_to_current":"Reset to current values",
+    "reset_to_current": "Reset to current values",
     "close_settings": "Close settings",
     "shortcuts": "Show shortcuts",
-    "name":"Settings",
-    "desc":"Configure agent capabilities and credentials",
-    "shortcuts_but":"Keyboard Shortcuts (?)",
+    "name": "Settings",
+    "desc": "Configure agent capabilities and credentials",
+    "shortcuts_but": "Keyboard Shortcuts (?)",
     "close_but": "Close (Esc)",
     "to_navigate": "to navigate",
     "to_cancel": "to cancel",
     "reset_but": "reset",
     "save_but": "Save Changes",
-    "shortcuts_title":"Settings Editor"
+    "shortcuts_title": "Settings Editor"
   },
   "knowledge": {
     "database": "Knowledge Database",
@@ -137,18 +137,18 @@
     "unmount_workspace": "Unmount Workspace",
     "discard_all_changes": "Discard All Changes",
     "accept_all_changes": "Accept All Changes",
-    "download":"Download",
+    "download": "Download",
     "download_zip": "Download Zip",
     "delete": "Delete",
     "delete_items": "Delete {{count, number}} Items",
     "new_file": "New File",
     "open": "Open",
     "copy_path_to_clipboard": "Copy path to clipboard",
-    "sidebar":{
+    "sidebar": {
       "title": "File Explorer",
       "ignore_system": "ignore system",
       "new_file_here": "New File Here",
-      "new_file":"New File",
+      "new_file": "New File",
       "mount_local_directory": "Mount Local Directory",
       "mount_github_repo": "Mount GitHub Repository",
       "local": "Local",
@@ -156,7 +156,7 @@
       "file_system_tree": "File System Tree",
       "no_files_in_workspace": "No files in workspace"
     },
-    "editor":{
+    "editor": {
       "new_file_placeholder": "Enter filename (e.g. src/notes.md)",
       "switch_to_diff_mode": "Switch Diff/Edit mode (Alt+C)",
       "switch_to_edit_mode": "Switch Diff/Edit mode (Alt+C)",
@@ -194,10 +194,10 @@
       "unmount_the_mount": "Unmount the Mount",
       "discard_changes": "Discard Changes",
       "accept_changes": "Accept Changes",
-      "save_file":"Save file",
+      "save_file": "Save file",
       "download_file": "Download file",
-      "toggle_markdown_preview":"Toggle Markdown Preview",
-      "toggle_edit_and_diff_view":"Toggle Edit/Diff View",
+      "toggle_markdown_preview": "Toggle Markdown Preview",
+      "toggle_edit_and_diff_view": "Toggle Edit/Diff View",
       "delete_file": "Delete File",
       "download_file_as_zip": "Download File as Zip",
       "open_shortcuts_window": "Open Shortcuts Window",
@@ -207,7 +207,7 @@
       "global": "Global",
       "copy_path_to_clipboard": "Copy path to clipboard"
     },
-    "dialogs":{
+    "dialogs": {
       "notification": "Notification",
       "failed_to_save": "Failed to save file {{error}}",
       "failed_to_delete": "Failed to delete file {{path}}",
@@ -235,16 +235,16 @@
     "title": "Variables Viewer",
     "no_variables": "No variables available."
   },
-  "modal_dialog":{
+  "modal_dialog": {
     "ok": "OK",
     "cancel": "Cancel",
     "confirm": "Confirm"
   },
-  "shortcuts":{
+  "shortcuts": {
     "shortcuts_title": "Command Palette",
     "close_key": "ESC TO CLOSE"
   },
-  "chat":{
+  "chat": {
     "history": {
       "agent_thinking": "Agent is thinking...",
       "no_content": "No content available",
@@ -254,7 +254,7 @@
       "edit_content": "Edit Content",
       "copy_content": "Copy Content",
       "delete_message": "Delete Message",
-      "greetings":{
+      "greetings": {
         "ready": "The Agent is ready",
         "welcome": "Research, analyse code, and plan.",
         "features": {
@@ -264,72 +264,91 @@
           "tool_flow_pipelines": "Tool Flow Pipelines"
         }
       },
-      "task_tree":{
-        "debate":{
+      "task_tree": {
+        "debate": {
           "agent_thinking": "Thinking...",
           "opinion": "Opinion",
-          "round":{
+          "round": {
             "title": "Debate Round Summary",
             "total_agents": "{{count}} Agents"
           }
         },
-        "node":{
+        "node": {
           "arguments": "Arguments",
           "result": "Result"
         }
       },
-      "input":{
-        "placeholder":"Ask the agent to research, analyze code, or explain concepts...",
+      "input": {
+        "placeholder": "Ask the agent to research, analyze code, or explain concepts...",
         "attach_file": "Attach file",
         "press_enter_to_send_0": "Press",
         "press_enter_to_send_1": "to send",
         "for_newline": "for newline",
-        "set_gemini_key":"Set gemini api key to use the model",
+        "set_gemini_key": "Set gemini api key to use the model",
         "cancel_generation": "Cancel generation",
         "send_message": "Send message"
       }
     },
-    "header":{
+    "header": {
       "sidebar_open": "Open Sidebar",
-      "icon":"Icon",
-      "auto_scroll":{
+      "icon": "Icon",
+      "auto_scroll": {
         "enabled": "Autoscroll enabled",
         "disabled": "Autoscroll disabled"
       },
-      "modal":{
+      "modal": {
         "context_window": "Context Window",
         "vfs": "Virtual File System",
         "knowledge_base": "Knowledge Base",
         "variables_viever": "Variables Viewer",
         "settings": "Settings"
       },
-      "action":{
+      "action": {
         "clear_history": "Clear history"
       },
       "model": {
         "gemini-3-flash-preview": "Gemini 3.0 Flash",
         "gemini-3.1-pro-preview": "Gemini 3.1 Pro",
         "gemini-3-pro-image-preview": "Image Pro",
-        "gemini-3.1-flash-lite-preview":"Gemini 3.1 Flash Lite",
+        "gemini-3.1-flash-lite-preview": "Gemini 3.1 Flash Lite",
         "gemini-2.5-flash": "Gemini 2.5 Flash",
         "gemini-2.5-pro": "Gemini 2.5 Pro"
       }
     },
-    "markdown":{
-      "image":{
-        "not_found":"The image is not found in `{{path}}` path."
+    "markdown": {
+      "image": {
+        "not_found": "The image is not found in `{{path}}` path."
       }
     },
-    "sidebar":{
-      "icon":"Icon",
+    "sidebar": {
+      "icon": "Icon",
       "new_chat": "New Chat",
-      "recent_chats":"Recent history",
+      "recent_chats": "Recent history",
       "no_history": "No history yet",
       "delete_chat": "Delete chat"
+    },
+    "research": {
+      "inspector": {
+        "title": "Research Inspector",
+        "metrics": {
+          "title": "System Metrics"
+        },
+        "theorems": {
+          "title": "Logical Axioms"
+        },
+        "glossary": {
+          "title": "Terminology"
+        },
+        "sources": {
+          "title": "Bibliography"
+        },
+        "no-data": "No research data detected in this session",
+        "footer": "Automated Research Synthesis"
+      }
     }
   },
-  "keybinds":{
-    "new_chat":"New Chat",
+  "keybinds": {
+    "new_chat": "New Chat",
     "sidebar_toggle": "Toggle Sidebar",
     "open_vfs": "Open Virtual File Manager",
     "open_settings": "Open Settings",

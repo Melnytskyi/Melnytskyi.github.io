@@ -326,6 +326,25 @@
       "recent_chats": "Jüngster Verlauf",
       "no_history": "Noch kein Verlauf",
       "delete_chat": "Chat löschen"
+    },
+    "research": {
+      "inspector": {
+        "title": "Forschungsinspektor",
+        "metrics": {
+          "title": "Systemmetriken"
+        },
+        "theorems": {
+          "title": "Logische Axiome"
+        },
+        "glossary": {
+          "title": "Terminologie"
+        },
+        "sources": {
+          "title": "Bibliographie"
+        },
+        "no-data": "Keine Forschungsdaten in dieser Sitzung erkannt",
+        "footer": "Automatisierte Forschungssynthese"
+      }
     }
   },
   "keybinds": {
